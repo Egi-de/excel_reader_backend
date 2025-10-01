@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)@n-k-1yli+j1t4=$#v2+kg%=%=%did4%s2trtn2&g$aorvqzw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "egide001.pythonanywhere.com"]
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
@@ -34,6 +34,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5173",
     "http://localhost:5174",
+    "https://modern-excel-reader.vercel.app",
 ]
 
 
